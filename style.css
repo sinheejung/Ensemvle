@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+}
+
+a:hover {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#header {
+    width: 1000px;
+    margin: auto;
+    font-size: 18px;
+}
+
+#header .logo {
+    margin-top: 9px;
+    margin-bottom: 17px;
+}
+
+#header .menu {
+    padding-bottom: 25px;
+}
+
+#header .menu ul li {
+    display: inline-block;
+    color: #999;
+}
+
+#header .menu ul li a {
+    color: #000;
+    text-decoration: none;
+    padding-right: 22px;
+    padding-left: 23px;
+}
+
+#content {
+    padding-top: 38px;
+    margin: auto;
+    width: 1000px;
+    height: 547px;
+    overflow: hidden;
+}
+
+#content h2 {
+    text-align: left;
+    padding-bottom: 21px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* 소개 */
+
+#content .mask {
+    width: 500px;
+    height: 491px;
+    float: left;
+}
+
+#content .text-box {
+    width: 450px;
+    float: right;
+    padding-left: 50px;
+}
+
+#content .text-box p {
+    padding-bottom: 1em;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* 활동 */
+
+#content img {
+    display: block;
+}
+
+#content .card {
+    width: 320px;
+    float: left;
+    padding-bottom: 20px;
+    background: #fdfdfd;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#content .card2 {
+    width: 320px;
+    float: left;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    background: #fdfdfd;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#content .card3 {
+    width: 320px;
+    float: right;
+    padding-bottom: 20px;
+    background: #fdfdfd;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#content .text-box2 {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+#content .text-box2 h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#content .text-box2 p {
+    font-size: 15px;
+    padding-top: 6px;
+}
+
+#content .text-box2 .gray {
+    padding-top: 4px;
+    color: #666;
+}
+
+
+
+#footer {
+    margin-top: 50px;
+}
+
+#footer p {
+    font-size: 14px;
+    padding: 15px 0;
+}
